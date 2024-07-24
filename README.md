@@ -1,72 +1,60 @@
-
-```
 # InventoryManagementSystem
 
-A simple inventory management system built in Java to efficiently manage and organize warehouse products. The system allows you to add, update, delete, and retrieve product details using a HashMap for fast data operations.
+Welcome to the Inventory Management System repository! This project is a simple yet efficient system for managing a warehouse inventory using Java. It provides functionalities to add, update, delete, and display products in the inventory.
 
-## Repository Link
+## Table of Contents
 
-[https://github.com/sgindeed/InventoryManagementSystem](https://github.com/sgindeed/InventoryManagementSystem)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Classes](#classes)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## Introduction
+
+The Inventory Management System is designed to help manage large inventories efficiently. It utilizes a HashMap to store and manipulate inventory data, ensuring quick access and modifications.
 
 ## Features
 
 - Add new products to the inventory
 - Update existing product details
 - Delete products from the inventory
-- Retrieve product details
 - Display all products in the inventory
 
-## Project Structure
+## Technologies Used
 
-```
-InventoryManagementSystem/
-│
-├── src/
-│   └── inventory/
-│       └── management/
-│           ├── Product.java
-│           ├── InventoryManagementSystem.java
-│           └── Main.java
-│
-└── README.md
-```
+- Java
 
-### Classes
-
-- `Product`: Represents a product with attributes `productId`, `productName`, `quantity`, and `price`.
-- `InventoryManagementSystem`: Manages the inventory using a `HashMap<String, Product>`.
-- `Main`: Contains the `main` method to demonstrate the functionality of the inventory management system.
-
-## Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- An IDE or text editor of your choice
-
-### Installation
+## Installation
 
 1. Clone the repository:
+    - `git clone https://github.com/sgindeed/InventoryManagementSystem.git`
+2. Navigate to the project directory:
+    - `cd InventoryManagementSystem`
+3. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
-    ```sh
-    git clone https://github.com/sgindeed/InventoryManagementSystem.git
-    ```
+## Usage
 
-2. Open the project in your IDE.
+1. Navigate to the `inventory.management` package.
+2. Run the `Main` class to start the application.
 
-3. Navigate to the `Main` class and run the `main` method to see the inventory management system in action.
+In the `Main` class, you can create instances of `Product`, add them to the inventory, update their details, delete them, and display the inventory.
 
-### Usage
+## Classes
 
-Here are the primary methods available in the `InventoryManagementSystem` class:
-
-- `addProduct(Product product)`: Adds a new product to the inventory.
-- `updateProduct(Product product)`: Updates an existing product's details.
-- `deleteProduct(String productId)`: Deletes a product from the inventory using its product ID.
-- `getProduct(String productId)`: Retrieves a product's details using its product ID.
-- `displayInventory()`: Displays all products in the inventory.
+- `Product`: Represents a product with attributes like `productId`, `productName`, `quantity`, and `price`.
+- `InventoryManagementSystem`: Manages the inventory using a `HashMap`, providing methods to add, update, delete, and display products.
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-```
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests for new features.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out.
+
+- GitHub: [sgindeed](https://github.com/sgindeed)
+- Mail: [Supratim](sgindeed234@gmail.com)
